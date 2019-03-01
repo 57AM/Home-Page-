@@ -107,8 +107,8 @@ main p {
 }
 #DM h4, #PM h4 {
 	margin-top: 30px; 
-	color: rgb(88, 154, 82); 
-	text-shadow: 3px 3px 3px white; 
+	color: black; 
+	text-shadow: 3px 3px 3px rgb(88, 154, 82); 
 }
 #DM a, #PM a {
 	color: black; 
@@ -163,8 +163,8 @@ h5 {
 #CU {
 	text-align: center; 
 	padding: 30px 30px; 
-	color: rgb(88, 154, 82);
-	text-shadow: 3px 3px rgb(169, 169, 169);   
+	color: black; 
+	text-shadow: 3px 3px 3px rgb(88, 154, 82);
 } 
 #contact {
 	text-decoration: none; 
