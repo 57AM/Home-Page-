@@ -1,0 +1,174 @@
+html {
+	height: 100%; 
+} 
+body {
+	height: 100% 
+} 
+
+header {
+	border-bottom: 3px solid rgb(88, 154, 82);
+}
+#nav{
+	background-color: white; 
+}
+.navbar-brand {
+	position: relative;
+    background: url(./57thAveMarketingLogo1.png) no-repeat;
+    width: 300px;
+	height: 150px; 
+    left: 15px;
+    background-size: contain;
+}
+.nav-item a:hover {
+	color: white;
+} 
+main {
+	width: 100%;
+	margin-bottom: auto; 
+	height: 90%: 
+} 
+#main {
+	color: black; 
+	text-align: center;  
+	padding: 30px 30px;
+}
+main h3.NM {
+	text-align: center;  
+	padding: 30px 30px; 
+	color: white; 
+	text-shadow: 3px 3px rgb(88, 154, 82);
+}
+main p {
+	text-align: center; 
+}
+#DMB {
+	background: url(./digital-ecosystem.jpg) no-repeat center center; 
+	background-size: cover; 
+	height: 70%; 
+	z-index: -1; 
+	margin-top: 0; 
+	
+}
+
+#DMB p {
+	color: white;  
+	background: rgba(169,169,169,.85);
+	 
+	 
+}
+#PMB {
+	background: url(./PMB.jpg) no-repeat center center; 
+	background-size: cover; 
+	height: 70%; 
+	z-index: -1; 
+	margin-top: 0; 
+}
+#AUB {
+	background: url(./seattle-skyline.jpg) no-repeat top center; 
+	background-size: cover; 
+	height: 70%; 
+	z-index: -1; 
+	margin-top: 0; 
+}
+#CUB {
+	background: url(./contact_Us.png) no-repeat top center; 
+	background-size: contain; 
+	height: 70%; 
+	z-index: -1; 
+	opacity: 25%; 	
+}
+
+#panels {
+	width: 100%; 
+	height: auto; 
+}
+#DM {
+	background: url(./digital_marketing.jpg) no-repeat; 
+	background-size: cover; 
+	position: relative; 
+	
+}
+#PM {
+	background: url(./Physical_Marketing.jpg) no-repeat;
+	background-size: cover; 
+	position: relative; 
+	
+}
+#DM, #PM{
+	width: 30%;
+	height: 250px; 
+	border: 3px solid black; 
+	display: inline-block; 
+	margin: 0 9%; 
+	text-align: center; 
+	position: relative; 
+
+	
+}
+#DM h4, #PM h4 {
+	margin-top: 30px; 
+	color: rgb(88, 154, 82); 
+	text-shadow: 3px 3px 3px white; 
+}
+#DM a, #PM a {
+	color: black; 
+	text-shadow: 3px 3xp white; 
+}
+
+
+.footer {
+	background: rgb(88, 154, 82); 
+	height: 30px; 
+	position: absolute; 
+	bottom: 0; 
+	width: 100%; 
+	display: block; 
+	
+} 
+footer h4 {
+	margin-bottom: 0; 
+}
+#one {
+	margin-bottom: 0; 
+	display: inline-block; 
+	margin-right: 25%; 
+} 
+.p {
+	text-align: center; 
+	margin-top: 30px; 
+	color: white;  
+	background: rgba(169,169,169,.85);
+}
+.spacer {
+	height: 220px; 
+	margin-bottom: 35px; 
+}
+h5.about_p{
+	text-align: center; 
+	position: relative; 
+	bottom: 10px; 
+}
+
+hr {
+	border: none;
+    height: 3px;
+    background-color: rgb(88, 154, 82); /* Modern Browsers */
+	color: rgb(88, 154, 82);
+}
+h5 {
+	text-align: center; 
+	padding-top: 20px; 
+
+}
+#CU {
+	text-align: center; 
+	padding: 30px 30px; 
+	color: rgb(88, 154, 82);
+	text-shadow: 3px 3px rgb(169, 169, 169);   
+} 
+#contact {
+	text-decoration: none; 
+	color: rgb(88, 154, 82); 
+	 
+}
+
