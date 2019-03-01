@@ -171,4 +171,29 @@ h5 {
 	color: rgb(88, 154, 82); 
 	 
 }
+.card {
+	display: inline-block; 
+	width: 30%; 
+	height: 100%;  
+}
+.card-header {
+	background-color: rgb(88, 154, 82);
+	border: 3px solid black; 
+}
+.card-body {
+	border: 3px solid black; 
+}
+.card-body a {
+	background-color: rgb(88, 154, 82);
+	border: 2px solid white;
+}
+.card-body a:hover {
+	background-color: rgba(169,169,169,.85);
+}
+.portfolio {
+	height: 30%; 
+	margin: 30px 3px; 
+	text-align: center; 
+	
+}
 
