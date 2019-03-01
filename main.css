@@ -13,7 +13,7 @@ header {
 }
 .navbar-brand {
 	position: relative;
-    background: url(./57thAveMarketingLogo1.png) no-repeat;
+    background: url("./57thAveMarketingLogo1.png") no-repeat;
     width: 300px;
 	height: 150px; 
     left: 15px;
@@ -42,7 +42,7 @@ main p {
 	text-align: center; 
 }
 #DMB {
-	background: url(./digital-ecosystem.jpg) no-repeat center center; 
+	background: url("./digital-ecosystem.jpg") no-repeat center center; 
 	background-size: cover; 
 	height: 70%; 
 	z-index: -1; 
@@ -57,21 +57,21 @@ main p {
 	 
 }
 #PMB {
-	background: url(./PMB.jpg) no-repeat center center; 
+	background: url("./PMB.jpg") no-repeat center center; 
 	background-size: cover; 
 	height: 70%; 
 	z-index: -1; 
 	margin-top: 0; 
 }
 #AUB {
-	background: url(./Seattle-skyline.jpg) no-repeat top center; 
+	background: url("./Seattle-skyline.jpg") no-repeat top center; 
 	background-size: cover; 
 	height: 70%; 
 	z-index: -1; 
 	margin-top: 0; 
 }
 #CUB {
-	background: url(./contact_us.png) no-repeat top center; 
+	background: url("./contact_us.png") no-repeat top center; 
 	background-size: contain; 
 	height: 70%; 
 	z-index: -1; 
@@ -83,13 +83,13 @@ main p {
 	height: auto; 
 }
 #DM {
-	background: url(./digital_marketing.jpg) no-repeat; 
+	background: url("./digital_marketing.jpg") no-repeat; 
 	background-size: cover; 
 	position: relative; 
 	
 }
 #PM {
-	background: url(./Physical_Marketing.jpg) no-repeat;
+	background: url("./Physical_Marketing.jpg") no-repeat;
 	background-size: cover; 
 	position: relative; 
 	
