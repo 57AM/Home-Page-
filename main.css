@@ -64,14 +64,14 @@ main p {
 	margin-top: 0; 
 }
 #AUB {
-	background: url(./seattle-skyline.jpg) no-repeat top center; 
+	background: url(./Seattle-skyline.jpg) no-repeat top center; 
 	background-size: cover; 
 	height: 70%; 
 	z-index: -1; 
 	margin-top: 0; 
 }
 #CUB {
-	background: url(./contact_Us.png) no-repeat top center; 
+	background: url(./contact_us.png) no-repeat top center; 
 	background-size: contain; 
 	height: 70%; 
 	z-index: -1; 
