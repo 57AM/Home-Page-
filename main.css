@@ -20,20 +20,24 @@ html, body {
 
 header {
 	border-bottom: 3px solid rgb(88, 154, 82);
-}
-#nav{
 	background-color: white; 
+}
+nav{
+	background: white; 
 }
 .navbar-brand {
 	position: relative;
-    background: url("./57thAveTechlogo.png") no-repeat;
+    background: url("./57thAveTechlogo.jpg") no-repeat;
     width: 300px;
 	height: 150px; 
     left: 15px;
     background-size: contain;
 }
+.nav-item a {
+	color: black; 
+}
 .nav-item a:hover {
-	color: white;
+	color: rgb(88, 154, 82); ;
 } 
 main {
 	width: 100%;
