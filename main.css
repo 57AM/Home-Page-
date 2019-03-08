@@ -208,5 +208,7 @@ h5 {
 .card-body a:hover {
 	background-color: rgba(169,169,169,.85);
 }
-
+.SL {
+	margin: 3px 9px; 
+}
 
