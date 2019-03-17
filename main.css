@@ -35,7 +35,7 @@ header {
 	color: black; 
 }
 .nav-item a:hover {
-	color: rgb(88, 154, 82); ;
+	color: rgb(88, 154, 82); 
 } 
 main {
 	width: 100%;
@@ -181,11 +181,7 @@ h5 {
 	color: black; 
 	text-shadow: 3px 3px 3px rgb(88, 154, 82);
 } 
-#contact {
-	text-decoration: none; 
-	color: rgb(88, 154, 82); 
-	 
-}
+
 #work {
 	width: 100%; 
 	padding: 12px; 
@@ -212,5 +208,7 @@ h5 {
 }
 .SL {
 	margin: 3px 9px; 
+	color: rgb(88, 154, 82);
+	text-decoration: none; 
 }
 
