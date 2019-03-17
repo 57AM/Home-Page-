@@ -22,12 +22,10 @@ header {
 	border-bottom: 3px solid rgb(88, 154, 82);
 	background-color: white; 
 }
-nav{
-	background: white; 
-}
+
 .navbar-brand {
 	position: relative;
-    background: url("./57thAveTechLogo.jpg") no-repeat;
+    background: url("./57thAveTechLogo.png") no-repeat;
     width: 300px;
 	height: 150px; 
     left: 15px;
