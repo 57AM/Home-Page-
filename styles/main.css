@@ -9,14 +9,20 @@
 html,body {
 	height: 100%;
 	position: relative; 
+	display: block; 
+	top: 0; 
+	bottom: 0; 
+	left: 0; 
+	right: 0; 
 } 
+
 header {
 	border-bottom: 3px solid rgb(88, 154, 82);
 	background-color: white; 
 }
 .navbar-brand {
 	position: relative;
-    background: url("../img/57thAveTechLogo.png") no-repeat;
+    background: url("../img/57thAveDevLogo-2.png") no-repeat;
     width: 300px;
 	height: 150px; 
     left: 15px;
@@ -31,46 +37,24 @@ header {
 .Main-Body-Container {
 	background-color: rgba(169,169,169,.85)/*url("./Seattle-skyline.jpg") no-repeat top center; */;
 	background-size: cover; 
-	height: 100vh; 
+	height: 100%; 
 	display: block; 
 	
 	z-index: -1; 
 	margin-top: 0; 
-	margin-bottom: 0; 
+	margin-bottom: 30px;
+	padding-bottom: 30px; 
 }
 main {
 	width: 100%;
 	margin-bottom: auto; 
 	height: 90%: 
 } 
-#main {
-	color: white; 
-	text-shadow: 3px 3px rgb(88, 154, 82);
-	text-align: center;  
-	padding: 30px 30px 0px 30px;
-	font-family: 'Allerta Stencil', sans-serif;
-}
-main h3.NM , 
-.profileHeader h4{
-	text-align: center;  
-	padding: 30px 30px; 
-	color: white; 
-	text-shadow: 3px 3px rgb(88, 154, 82);
-}
+
 main p {
 	text-align: center; 
 }
-#CUB {
-	
-	height: 100vh; 
-	z-index: -1; 
-	opacity: 100%; 	
-}
 
-#panels {
-	width: 100%; 
-	height: auto; 
-}
 .footer {
 	background: rgb(88, 154, 82); 
 	height: 30px; 
@@ -84,27 +68,42 @@ main p {
 footer h4 {
 	margin-bottom: 0; 
 }
-/* General Styling */ 
-/*Home Page*/
-#main-container {
-	min-height: calc(100vh + 30px); ; /* will cover the 100% of viewport */
-	overflow: hidden;
-	display: block;
-	position: relative;
-	
-}
-
-
-
-#one {
+.footerScript {
 	margin-bottom: 0; 
 	display: inline-block; 
 	margin-right: 25%; 
 } 
+/* General Styling */ 
+/*Home Page*/
+#main-container {
+	min-height: calc(100vh + 30px); /* will cover the 100% of view port */
+	display: block;
+	position: absolute;
+	left: 0; 
+	right: 0; 
+	top: 0; 
+}
+
+#missionStatement{
+	color: white; 
+	text-shadow: 3px 3px rgb(88, 154, 82);
+	text-align: center;  
+	padding: 30px 30px 0px 30px;
+	font-family: 'Allerta Stencil', sans-serif;
+}
+
+#fpJumbotron {
+	width: 100%; 
+	height: auto; 
+}
+
+
 .p {
 	text-align: center; 
 	margin-top: 30px; 
 	color: white;  
+	padding-left: 60px; 
+	padding-right: 60px; 
 	/*background: rgba(169,169,169,.85);*/
 }
 
@@ -131,9 +130,48 @@ h5 {
 	color: white; 
 	text-shadow: 3px 3px 3px rgb(88, 154, 82);
 } 
-/**News Page**/
-.spacer {
+/*Services*/
+.serviceImages {
+	position: relative; 
+	height: 400px; 
+}
+#one, 
+#two, 
+#three, 
+#four {
+	position: absolute; 
+} 
+#one, 
+#three {
+	left: 10%; 
+}
+#two,
+#four {
+	right: 10%; 
+}
 
+/**News Page**/
+.news{
+	padding-top: 6px; 
+	padding-bottom: 6px; 
+	background: rgb(88, 154, 82);
+}
+.news-body {
+	background-color: rgba(103,110,103,.85); 
+}
+#newsHeading , 
+.profileHeader h4,
+#auHeading,
+.servicesHeadings
+{
+	text-align: center;  
+	padding: 30px 30px; 
+	color: white; 
+	text-shadow: 3px 3px rgb(88, 154, 82);
+}
+/*News Content*/
+.row {
+	margin-right: 0; 
 }
 /*About Page */
 #About-Us {
@@ -143,6 +181,7 @@ h5 {
 #restrain {
 	width: 81%; 
 	margin: 0 auto; 
+	display: block; 
 }
 .profileContainer {
 	margin-top: 3%; 
@@ -164,12 +203,19 @@ h5 {
 	line-height: 25px; 
 }
 #intro {
-	font-family:'Suez One', serif;
+	font-family:'Allerta Stencil', serif;
 }
 /**Portfolio Page**/
+
+.profileHeader img {
+	padding: 10px; 
+	border: solid 2px rgb(88, 154, 82); 
+	background-color: white; 
+}
 #work {
 	width: 100%; 
 	padding: 12px; 
+	text-align: center; 
 	text-align: center; 
 }
 .card {
@@ -182,7 +228,7 @@ h5 {
 	border: 3px solid black; 
 }
 .card-body {
-	border: 3px solid black; 
+	border: 3px solid white; 
 }
 .card-body a {
 	background-color: rgb(88, 154, 82);
@@ -195,5 +241,11 @@ h5 {
 	margin: 3px 9px; 
 	color: rgb(88, 154, 82);
 	text-decoration: none; 
+}
+/*---Contact Page ---- */
+#contactMain {
+	height: 100vh; 
+	z-index: -1; 
+	opacity: 100%; 	
 }
 
