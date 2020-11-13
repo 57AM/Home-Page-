@@ -8,6 +8,8 @@
 		<meta http-equiv="x-ua-compatible" content="ie-edge">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="./styles/main.css">
+		<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+		<script>window.sr = ScrollReveal();</script>
 	</head>
 	<body>
 	<div id="main-container">
@@ -41,20 +43,20 @@
 		</header> 
 	<!--Begin main-->
 		<main class="Main-Body-Container"> 
-			<h3 class="servicesHeadings"> Services </h3> 
+			<h3 class="servicesHeadings caption"> Services </h3> 
 			<div class="spacer"></div> 
-			<h3 class="servicesHeadings">Marketing</h3> 
+			<h3 class="servicesHeadings caption">Marketing</h3> 
 			<div class="serviceImages">
-				<img id="one" src="./img/Working on Calendar.png"/> 
-				<img id="two" src="./img/Working on Analytics.png"/> 
+				<img id="one" class="leftSide" src="./img/Working on Calendar.png"/> 
+				<img id="two" class="rightSide" src="./img/Working on Analytics.png"/> 
 			</div>
-			<p class="p">Our Marketing plan is designed to deliver high quality content to your audience. You provide a great service and our goal is to help you communicate that message as effectively as possible.</p> 
-			<h3 class="servicesHeadings">Web Development</h3> 
+			<p class="p caption">Our Marketing plan is designed to deliver high quality content to your audience. You provide a great service and our goal is to help you communicate that message as effectively as possible.</p> 
+			<h3 class="servicesHeadings caption">Web Development</h3> 
 			<div class="serviceImages">
-				<img id="three" src="./img/usingMobile.png"/> 
-				<img id="four" src="./img/laptop.png"/> 
+				<img id="three" class="leftSide" src="./img/usingMobile.png"/> 
+				<img id="four" class="rightSide" src="./img/laptop.png"/> 
 			</div>
-			<p class="p">We develop all websites and applications with a focus on functionality, user-friendliness, and brand alignment. This will ensure that our product will meet your needs while also being unique to your work flow. </p> 
+			<p class="p caption">We develop all websites and applications with a focus on functionality, user-friendliness, and brand alignment. This will ensure that our product will meet your needs while also being unique to your work flow. </p> 
 		
 		</main> 
 	<!--Begin Footer-->
@@ -67,5 +69,33 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		
+		<script> 
+		sr.reveal('.leftSide', {
+			origin: 'left', 
+			duration: 1000,
+			distance: '250px',
+			easing: 'ease-in-out', 
+			container: 'body'
+			});
+		sr.reveal('.rightSide', {
+			origin: 'right', 
+			duration: 1000,
+			distance: '250px',
+			easing: 'ease-out',
+			container: 'body'
+			});
+		sr.reveal('.caption', {
+			origin: 'bottom', 
+			duration: 1000,
+			distance: '250px',
+			easing: 'ease-out',
+			container: 'body'
+			});
+		
+		
+		
+		
+	</script>
 	</body>
 </html>

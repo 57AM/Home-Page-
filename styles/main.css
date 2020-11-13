@@ -297,6 +297,10 @@ h5 {
 	#work {
 		flex-direction: column; 
 	}
-	
+	.navbar-brand{
+		transform: scale(.5); 
+		align-self: flex-start; 
+	}
+
 }
 

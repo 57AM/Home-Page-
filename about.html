@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="./styles/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Suez+One&display=swap" rel="stylesheet">
+		<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+		<script>window.sr = ScrollReveal();</script>
 	</head>
 	<body id="about-body">
 	<div id="main-container">
@@ -50,7 +52,7 @@
 				which consist of Quality, Honesty, and Efficiency. In unison these ideals create a solid foundation in which we base our projects and partnerships in
 				</p>
 			<!--Beginning of Personal Bios-->	
-				<div class="profileContainer">
+				<div class="profileContainer first">
 					<div class="profileHeader profileC">
 						<img class="profileImg" src="img/charlesProfile.jpg">
 						<h4 class="profileImg">Charles Tillmon</h4>
@@ -66,7 +68,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="profileContainer">
+				<div class="profileContainer second">
 					<div class="profileHeader profileC">
 						<img class="profileImg" src="img/jasmineProfile.jpg">
 						<h4 class="profileCaption">Jasmine Cochran</h4> 
@@ -95,5 +97,42 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		
+		<script> 
+		sr.reveal('.first', {
+			origin: 'left', 
+			duration: 1000,
+			distance: '250px',
+			delay: 300,
+			easing: 'ease-out', 
+			container: 'body'
+			});
+		sr.reveal('.second', {
+			origin: 'right', 
+			duration: 1000,
+			distance: '250px',
+			easing: 'ease-out', 
+			viewFactor: 0.2,
+			delay: 300,
+			container: 'body'
+			});
+		sr.reveal('#intro', {
+			origin: 'top', 
+			duration: 1000,
+			distance: '250px',
+			easing: 'ease-out', 
+			viewFactor: 0.2,
+			container: 'body'
+			});
+		sr.reveal('#auHeading', {
+			origin: 'top', 
+			duration: 1000,
+			distance: '250px',
+			easing: 'ease-out', 
+			viewFactor: 0.2,
+			container: 'body'
+			});
+		
+		</script>
 	</body>
 </html>
